@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/desktop.css">
@@ -19,7 +25,7 @@
             </div>
             <!-- Nav versioni mobile e tablet -->
             <div id="hamburger">
-                <a href="#">Hamburger</a>
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
             </div>
 
             <!-- Nav Versione desktop -->
@@ -38,7 +44,7 @@
                         <a href="#">About Us</a>
                     </li>
                     <li>
-                        <a href="#">Get Started</a>
+                        <a class="button-link" href="#">Get Started</a>
                     </li>
                 </ul>
             </div>
@@ -51,11 +57,44 @@
         <!-- Section delle applicazioni -->
         <section id="app">
             <div class="container">
-                <div class="col first-col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+                <div class="col first-col">
+                    <div class="app-text">
+                        <h3>Get a demo application</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ab voluptatibus quasi illo cupiditate facere aliquid</p>
+                        <a href="#" class="button-link"><i class="fa-brands fa-apple"></i> App Store</a>
+                    </div>
+                    <div class="app-img">
+                        <img src="img/phone.png" alt="Telefono">
+                    </div> 
+                </div>
+                <div class="col">
+                    <div class="app-text icon-text">
+                        <i class="fa-solid fa-file-code"></i>
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ab voluptatibus quasi illo cupiditate facere aliquid</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="app-text icon-text">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ab voluptatibus quasi illo cupiditate facere aliquid</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="app-text icon-text">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Development</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ab voluptatibus quasi illo cupiditate facere aliquid</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="app-text icon-text">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <h3>Branding</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ab voluptatibus quasi illo cupiditate facere aliquid</p>
+                    </div>
+                </div>
             </div>
         </section>
 

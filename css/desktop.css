@@ -25,6 +25,34 @@
         gap: 20px;
     }
 
+    header a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .button-link{
+        border-radius: 20px;
+        padding: 8px 10px;
+        background-color: #fff;
+        color: #000;
+    }
+
+
+    /********* Regole css section applicazioni *********/
+
+    .first-col{
+        display: flex;
+    }
+
+    .first-col .app-text{
+        padding-left: 20px;
+    }
+
+    .app-img{
+        align-self: flex-end;
+    }
+
 
     /********* Regole Planning Section ********/
 
