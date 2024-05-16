@@ -36,4 +36,27 @@ header .container{
 }
 
 
+/********** Regole css main **********/
+
+.col{
+    width: 100%;
+    /* DEBUG */
+    background-color: aqua;
+    min-height: 200px;
+    margin: 20px 0;
+}
+
+#planning{
+    background-color: #9792e4;
+}
+
+.planning-card{
+    width: 100%;
+    /* DEBUG */
+    background-color: blue;
+    min-height: 200px;
+    margin: 20px 0;
+}
+
+
 
