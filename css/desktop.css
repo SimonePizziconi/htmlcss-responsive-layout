@@ -32,5 +32,14 @@
         display: flex;
         gap: 20px;
     }
+
+
+    /********* Regole section benefits  **********/
+
+    .benefits-card{
+        width: calc(100% / 3 - 20px)
+    }
+
+
     
 }
