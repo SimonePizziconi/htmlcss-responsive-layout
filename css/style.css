@@ -7,7 +7,7 @@
 }
 
 .container{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     height: 100%;
     /* DEBUG
@@ -122,14 +122,59 @@ header .container{
 
 #planning, #benefits, #get-started{
     background-color: #9792e4;
+    padding: 30px 0;
 }
 
 .planning-card{
+    margin: 80px 0;
+}
+
+.planning-card .planning-text{
+    color: #fff;
+    text-align: left;
+    margin-top: 200px;
+}
+
+.planning-text p{
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.planning-card .planning-text h3{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.planning-card-border{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px 0;
+}
+
+.planning-card-border .planning-text{
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+
+.planning-card-border .planning-text p{
+    padding: 0 20px;
+}
+
+.planning-card-border .planning-text h3{
+    font-size: 30px;
+}
+
+.fa-arrow-down{
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #9792e4;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.planning-card img{
     width: 100%;
-    /* DEBUG */
-    background-color: blue;
-    min-height: 200px;
-    margin: 20px 0;
 }
 
 /* Regole section testimonials */

@@ -58,7 +58,11 @@
 
     #planning .container{
         display: flex;
-        gap: 20px;
+        gap: 100px;
+    }
+
+    .planning-card-border{
+        margin-top: 200px;
     }
 
 
