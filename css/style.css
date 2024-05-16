@@ -51,7 +51,7 @@ header .container{
 
 /* Regole section planning */
 
-#planning, #benefits{
+#planning, #benefits, #get-started{
     background-color: #9792e4;
 }
 
@@ -85,6 +85,21 @@ header .container{
 
 /* Regole section about us */
 
+.card-about-us{ 
+    width: 100%;
+    /* DEBUG */
+    min-height: 200px;
+    margin: 20px 0;
+    background-color: chocolate;
+}
 
+/* Regole section get started */
+
+#text-get-started{
+    /* DEBUG */
+    min-height: 200px;
+    margin: 20px 0;
+    background-color: chocolate;
+}
 
 

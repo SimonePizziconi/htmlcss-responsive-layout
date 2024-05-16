@@ -31,4 +31,12 @@
     .benefits-card{
         width: calc(50% - 20px)
     }
+
+    /********** Regole section about us  ************/
+
+    #about-us .container{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
 }
