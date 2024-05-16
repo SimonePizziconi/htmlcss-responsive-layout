@@ -1,5 +1,39 @@
+/******** Regole generali *********/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: green;
+    height: 100%;
+}
+
+
+/******* Regole css header ********/
+
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 900;
+    background-color: #0084fd;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#list-nav{
+    display: none;
+}
+
+
+

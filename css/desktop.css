@@ -1,0 +1,26 @@
+/********* Dimensioni Desktop *********/
+
+
+@media screen and (min-width: 1200px) {
+    
+    /******** Regole generali *********/
+
+    .container {
+        width: 70%;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    #list-nav {
+        display: block;
+    }
+
+    #list-nav ul{
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+    }
+    
+}
