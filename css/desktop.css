@@ -53,6 +53,10 @@
         align-self: flex-end;
     }
 
+    .app-img img{
+        width: 70%;
+    }
+
 
     /********* Regole Planning Section ********/
 
@@ -63,6 +67,13 @@
 
     .planning-card-border{
         margin-top: 200px;
+    }
+
+
+    /************ Regole testimonials section ***************/
+
+    .testimonial-img{
+        width: 60%;
     }
 
 

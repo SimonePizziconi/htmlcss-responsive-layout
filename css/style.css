@@ -55,13 +55,14 @@ header .container{
 
 /* Regole section applicazioni */
 
-.col{
+.card{
     border-radius: 20px;
-    background-color: #b5ddff;
-    width: 100%;
-    /* DEBUG */
-    /* min-height: 200px; */
     margin: 20px 0;
+    padding: 20px;
+}
+
+.col{
+    background-color: #b5ddff;
 }
 
 .app-text{
@@ -97,14 +98,9 @@ header .container{
     margin-right: 5px;
 }
 
-.app-img{
-    width: 90%;
-    margin: 0 auto;
-}
-
 .app-img img{
     width: 100%;
-    margin-bottom: -5px;
+    margin-bottom: -25px;
 }
 
 .icon-text{
@@ -179,22 +175,86 @@ header .container{
 
 /* Regole section testimonials */
 
+.testimonial-text{
+    text-align: center;
+    line-height: 30px;
+}
+
+.testimonial-text h3{
+    margin: 30px 0;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.testimonial-text h2{
+    font-size: 40px;
+    color: #9792e4;
+    margin-bottom: 30px;
+}
+
+.testimonial-text p{
+    font-size: 20px;
+}
+
 .testimonial-card{
     background-color: #9792e4;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.testimonial-card p, h4{
+    color: #fff;
+    line-height: 40px;
+}
+
+.testimonial-card h4{
+    font-size: 30px;
+}
+
+.testimonial-img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonial-img img{
     width: 100%;
-    /* DEBUG */
-    min-height: 200px;
-    margin: 20px 0;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Regole section benefits */
 
 .benefits-card{
-    width: 100%;
-    /* DEBUG */
-    min-height: 200px;
-    margin: 20px 0;
-    background-color: chocolate;
+    background-color: #fff;
+    line-height: 30px;
+}
+
+.benefits-card h2, h3{
+    color: #9792e4;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.benefits-card h3{
+    font-size: 30px;
+}
+
+.benefits-card p{
+    color: #5a6e7f;
+    margin-bottom: 30px;
+}
+
+.benefits-card .button-link{
+    text-decoration: none;
+    background-color: #9792e4;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 20px;
 }
 
 /* Regole section about us */

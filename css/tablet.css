@@ -28,6 +28,22 @@
     }
 
 
+    /************* Regole section testimonials ************/
+
+    .testimonial-card{
+        display: flex;
+        gap: 30px;
+    }
+
+    .testimonial-img{
+        width: 100%;
+    }
+
+    .testimonial-flex-text{
+       text-align: left;
+    }
+
+
 
     /********* Regole section benefits  **********/
     
