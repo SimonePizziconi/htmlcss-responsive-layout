@@ -31,7 +31,7 @@
         font-size: 20px;
     }
 
-    .button-link{
+    header .button-link{
         border-radius: 20px;
         padding: 8px 10px;
         background-color: #fff;
@@ -72,7 +72,7 @@
 
     /************ Regole testimonials section ***************/
 
-    .testimonial-img{
+    .circle-img{
         width: 60%;
     }
 
