@@ -235,7 +235,7 @@ header .container{
     line-height: 30px;
 }
 
-.benefits-card h2, h3{
+.benefits-card h2, .benefits-card h3{
     color: #9792e4;
     font-size: 40px;
     margin-bottom: 30px;
@@ -309,19 +309,71 @@ header .container{
 /* Regole section get started */
 
 #text-get-started{
-    /* DEBUG */
-    min-height: 200px;
-    margin: 20px 0;
-    background-color: chocolate;
+    text-align: center;
+    color: #fff;
 }
 
+#text-get-started h4{
+    font-weight: 100;
+}
+
+#text-get-started h3{
+    font-size: 30px;
+}
+
+#text-get-started h2{
+    color: #fdc15f;
+    font-size: 50px;
+}
+
+#text-get-started p{
+    margin-top: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#text-get-started .button-link{
+    background-color: #fff;
+    color: #9792e4;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 90px;
+    border-radius: 30px;
+}
+
+#text-get-started #copyright{
+    margin-top: 30px;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+#copyright a{
+    color: #fff;
+}
+
+.fa-circle{
+    font-size: 5px;
+    vertical-align: middle;
+}
 
 /*********** REGOLE CSS FOOTER  ************/
 
 footer{
     background-color: #333333;
-    /* DEBUG */
-    min-height: 300px;
+}
+
+footer .container{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-text{
+    margin-top: 40px;
+}
+
+footer a{
+    color: #7774ad;
 }
 
 
